@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+    
+<head>   
+           
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Comandos GIT</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -14,119 +14,34 @@
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
-
+        </script>   
     
-    <style>
-        p {
-            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        }
-
-        .foto-perfil {
-            height: 100%;
-            max-width: auto;
-            border-radius: 50%;
-        }
-        .icone-email {
-            height: 100%;
-            max-width: auto;
-            border-radius: 25%;
-        }
-
-        .icones {
-            padding-left: 5px;
-        }
-
-        .titulosBrancos {
-            text-decoration: underline;
-            text-underline-position: under;
-            padding-bottom: 20px;
-            text-transform: none;
-            font-weight: 700;
-            color: white;
-        }
-
-        .titulosVerdes {
-            text-decoration: underline;
-            text-underline-position: under;
-            padding-bottom: 20px;
-            text-transform: none;
-            font-weight: 700;
-            color: #18bc9c
-        }
-
-        .paragrafoBrancos {
-            color: white !important;
-        }
-
-
-        .jumbotron {
-            margin-bottom: 0px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        p {
-            color:gold !important;
-        }
-
-        .corPrimaria {
-            background-color:black;
-        }
-
-        .itemMenu {
-            color: white;
-        }
-        .openInNewTab {
-        var win = window.open(url, '_blank');
-        win.focus();
-}
-    </style>
 </head>
 
-<body>
-    <//nav class="navbar navbar-expand-md navbar-light" style="background-color:#2c3e50">
-        <//a class="navbar-brand" href="#" style=color:white></a>
-        <//button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
-            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-<//span class="navbar-toggler-icon"></span>
-        <///button>
-
-       
+<body> 
+        
+    <link href="styles/comandos_git.css" rel="stylesheet">
     
-
-<section class="jumbotron text-center corPrimaria">
+<section class="jumbotron text-center imagemback">
         <div class="container">
-            <img src="img/git_esc.jpg" class="foto-perfil" alt="Responsive image">
-            <h1 class="jumbotron-heading" style="color:white;text-transform: none;">Comandos e dicas GIT</h1>
-                                    
+            <img src="img/git_github.png" class="imagem-principal">
+            <h1 class="jumbotron-heading paraprincipal">Comandos e dicas GIT</h1>                                    
         </div>
     </section>
-    <!-- Comentários -->
-    
-
-    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+   
+    <section class=" text-center imagemback">
         <div class="container">
             <h2 class="jumbotron-heading titulosBrancos">Principais comandos para trabalhar no dia a dia com o GIT e GitHub</h2>
-            <p class="lead paragrafoBrancos">Clonar um repositório remoto para o seu computador: git clone https://github.com/autor_repositorio/nome_repositorio.git</p>
-            <p class="lead paragrafoBrancos">Commitar um arquivo alterado: git commit -m "Comentário enxuto e preciso sobre a alteração"</p>
-            <p class="lead paragrafoBrancos">Subir os arquivos commitados no computador para o repositório remoto: git push origin nome_da_branch</p>
+            <p class="lead paragrafoBrancos">Clonar um repositório remoto para o seu computador: >git clone https://github.com/autor_repositorio/nome_repositorio.git<</p>
+            <p class="lead paragrafoBrancos">Adicionar um arquivo para ser rastreado pelo controle de versão: >git add nome_do_arquivo<</p>
+            <p class="lead paragrafoBrancos">Adicionar todos os arquivos da pasta para serem rastreados pelo controle de versão: >git add .<</p>
+            <p class="lead paragrafoBrancos">Commitar um arquivo alterado: "git commit -m >Comentário enxuto e preciso sobre a alteração"<</p>
+            <p class="lead paragrafoBrancos">Subir os arquivos commitados no computador para o repositório remoto: >git push origin nome_da_branch<</p>
             
         </div>
-    </section>                    
-                    
-                      
-         
-    </section>
-
-    <footer >
-
-    </footer>
-       
-    </footer>
-
+    </section>             
+                                
+            
 </body>
 
 </html>

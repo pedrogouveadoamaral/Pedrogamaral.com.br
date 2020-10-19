@@ -1,0 +1,44 @@
+
+<style>
+
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        
+        .imagemback {            
+            background-image: url("img/git_esc.jpg");
+            background-repeat: no-repeat;
+            background-color:white;
+        }
+
+        .cordefundo {            
+            background-color:white;}
+
+        .imagem-principal {
+            image-resolution: ;
+            height: 100%;
+            max-width: auto;
+            
+        }             
+        
+        .titulosBrancos {            
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: none;
+            font-weight: 700;
+            color:black;
+        }
+        
+        .paraprincipal {
+            color:black !important;
+            font-size: 100px;
+            font-weight: 650;
+        }
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }     
+           
+               
+}
+    </style>
