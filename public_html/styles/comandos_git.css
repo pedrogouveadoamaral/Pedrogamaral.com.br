@@ -5,10 +5,11 @@
             font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
         
-        .imagemback {            
-            background-image: url("img/git_esc.jpg");
+        .background {            
+            
+            background-size: 800px;
             background-repeat: no-repeat;
-            background-color:white;
+            background-color: white;
         }
 
         .cordefundo {            
@@ -34,11 +35,12 @@
             font-size: 100px;
             font-weight: 650;
         }
-
-        .jumbotron {
-            margin-bottom: 0px;
-        }     
-           
-               
+        .paragrafoBrancos {
+            color:black !important;            
+            
+        }
+          
+          
+              
 }
     </style>
