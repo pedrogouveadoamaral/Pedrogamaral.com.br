@@ -39,7 +39,7 @@ p {
 
 .linkscontatos {
     font-size: 20px;
-    padding-bottom:60px;
+    padding-bottom:50px;
     margin-bottom: 0px;
     color:white    
 }
@@ -62,13 +62,14 @@ html {
 }
 
 .footer{
-    background-color:#324455;
-    margin:0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:#324455;            
     padding:0px;
     padding-top:10px;
     padding-bottom:10px;
     text-align: center;
-    color:white  
+    color:white   
 }
 .openInNewTab {
 var win = window.open(url, '_blank');

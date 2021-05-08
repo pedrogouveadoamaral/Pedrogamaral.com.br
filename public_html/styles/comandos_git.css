@@ -22,25 +22,47 @@
             
         }             
         
-        .titulosBrancos {            
+        .titulo {     
+            text-align: center;       
             text-underline-position: under;
             padding-bottom: 20px;
             text-transform: none;
             font-weight: 700;
             color:black;
+        } 
+        
+        .listaordenada {
+
         }
+        .inline { 
+            display: inline;                     
+          }
+
+          .comando {
+            display: inline; 
+            color: black;
+            font-weight: 900;
+          }
+       
         
         .paraprincipal {
             color:black !important;
             font-size: 100px;
-            font-weight: 650;
+            font-weight: 650;            
         }
         .paragrafoBrancos {
             color:black !important;            
             
         }
-          
-          
-              
-}
+        .footer{
+            margin-left: 2%;
+            margin-right: 2%;
+            background-color:#324455;            
+            padding:0px;
+            padding-top:10px;
+            padding-bottom:10px;
+            text-align: center;
+            color:white  
+        }         
+                        
     </style>
