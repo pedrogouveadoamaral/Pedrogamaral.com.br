@@ -3,9 +3,8 @@ p {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.foto-perfil {
-    height: 100%;
-    max-width: auto;
+.foto-perfil {      
+    max-width: 22%;
     border-radius: 30%;
 }
 .icone-email {
@@ -30,7 +29,7 @@ p {
     color: white;
 }
 .titulosBrancos {
-    padding-top:90px;
+    padding-top:10px;
     padding-bottom: 20px;
     text-transform: none;
     font-weight: 700;
